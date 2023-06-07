@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "fs": "^0.0.1-security",
+    "neat-csv": "^5.2.0",
+    "stream-array": "^1.1.2",
+    "stream-transform": "^3.2.2"
+  },
+  "baseUrl": {
+    "stage": "https://stage.example.com",
+    "production": "https://www.example.com"
+  },
+  "scripts": {
+    "cypress:open": "cypress run",
+    "test": "cypress run"
+  }
+}
